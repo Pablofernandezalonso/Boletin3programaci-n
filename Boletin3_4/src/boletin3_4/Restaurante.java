@@ -56,8 +56,8 @@ public class Restaurante {
     }
 
     public int calculaClientes() {
-        int personasPulpo = (int) (polbo * 1.5);
-        int personasPatacas = (int) (patacas * 3);
+        int personasPulpo = (int) (polbo * 2);
+        int personasPatacas = (int) (patacas * 1.5);
         if (personasPulpo > personasPatacas) {
             return personasPatacas;
         }

@@ -16,9 +16,9 @@ public class Boletin3_4 {
      */
     public static void main(String[] args) {
         
-        Restaurante probapulpeiros = new Restaurante (5,2);
-        probapulpeiros.engadirPolbo(5);
-        probapulpeiros.engadirPatacas(1);
+        Restaurante probapulpeiros = new Restaurante (8,4);
+        probapulpeiros.engadirPolbo(8);
+        probapulpeiros.engadirPatacas(4);
         System.out.println("Aforo= "+probapulpeiros.calculaClientes());
         
     }
